@@ -2,3 +2,4 @@ https://www.youtube.com/watch?v=n6UPwT2hf_g
 https://github.com/Remix-Design/RemixIcon
 https://cdnjs.com/libraries/gsap
 https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/
+https://github.com/aadilkhan08/CANVAS-CODE/blob/main/script.js
