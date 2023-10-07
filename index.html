@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
     <link rel="stylesheet" href="./assets/css/style.css">
 
     <title>3D Website</title>
@@ -13,7 +14,7 @@
 
 <body>
     <div class="main" id="main">
-        <div id="page1">
+        <div id="page1" data-scroll data-scroll-speed="-5">
             <nav>
                 <img src="./assets/images/logo.png" alt="logo">
                 <div id="right-nav">
@@ -35,7 +36,28 @@
                     muted></video>
             </div>
         </div>
+
+        <div id="page2">
+            <h2>Certify your building as a digital twin token (dtt)</h2>
+
+            <h1>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Consequuntur vel alias assumenda vero atque nihil consectetur
+                eveniet neque minima iure cum ex quisquam natus numquam nobis
+                recusandae distinctio, harum delectus.
+            </h1>
+        </div>
     </div>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"
+        integrity="sha512-16esztaSRplJROstbIIdwX3N97V1+pZvV33ABoG1H2OyTttBxEGkTsoIVsiP1iaTtM8b3+hu2kB6pQ4Clr5yug=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"
+        integrity="sha512-Ic9xkERjyZ1xgJ5svx3y0u3xrvfT/uPkV99LBwe68xjy/mGtO+4eURHZBW2xW4SZbFrF1Tf090XqB+EVgXnVjw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
 
     <script src="./assets/js/main.js"></script>
 </body>
