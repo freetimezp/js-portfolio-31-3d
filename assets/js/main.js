@@ -362,7 +362,26 @@ function canvas2() {
 canvas2();
 
 
+// third text section page6
 
+var clutter = "";
+document.querySelector("#page6>h1").textContent.split(" ").forEach(function (dets) {
+    clutter += `<span> ${dets} </span>`;
+
+    document.querySelector("#page6>h1").innerHTML = clutter;
+});
+
+gsap.to("#page6>h1>span", {
+    ScrollTrigger: {
+        trigger: `#page6>h1>span`,
+        start: `top bottom`,
+        end: `bottom end`,
+        scroller: `#main`,
+        scrub: 0.5,
+    },
+    stagger: 0.2,
+    color: `#fff`,
+})
 
 
 
