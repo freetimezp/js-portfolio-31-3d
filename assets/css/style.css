@@ -167,10 +167,6 @@ html, body {
     position: relative;
 }
 
-.pin-spacer {
-    max-height: 250vh;
-}
-
 #page4 {
     position: relative;
     height: 100vh;
@@ -236,11 +232,41 @@ html, body {
     font-weight: 100;
 }
 
+#page7 {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color: #0a3cce;
+}
 
+#page7>canvas {
+    position: relative;
+    max-width: 100vw;
+    max-height: 100vh;
+}
 
+.page7-circle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25vw;
+    width: 25vw;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 9;
+}
 
-
-
+.page7-circle-inner {
+    height: 70%;
+    width: 70%;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 1px solid #fff;
+}
 
 
 
