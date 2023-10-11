@@ -388,13 +388,80 @@ html, body {
     color: #ffffff91;
 }
 
+#page11 {
+    position: relative;
+    height: 110vh;
+    width: 100vw;
+    background-color: #fff;
+    font-family: a;
+    padding-bottom: 2vw;
+}
+
+#page11 > h1 {
+    position: absolute;
+    top: 10%;
+    left: 5%;
+    font-size: 4vw;
+    color: #000;
+    font-weight: 100;
+}
+
+#page11 > .inner {
+    position: relative;
+    top: 24%;
+    margin-bottom: 2vw;
+    height: 22%;
+    width: 100%;
+    display: flex;
+}
+
+#page11 > .inner > .left {
+    position: relative;
+    height: 100%;
+    width: 40%;
+    left: 10%;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+#page11 > .inner > .left img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: all 0.4s ease-in-out;
+}
 
 
+#page11 > .inner > .left img:hover {
+    transform: scale(1.2);
+}
 
+#page11 > .inner > .right {
+    position: absolute;
+    right: 0;
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    color: #000;
+    padding-left: 2vw;
+    font-family: a;
+}
 
+#page11 > .inner > .right h1 {
+    margin-bottom: 1vw;
+    font-weight: 100;
+    font-size: 0.9vw;
+    color: #00000061;
+}
 
-
-
-
+#page11 > .inner > .right h3 {
+    font-weight: 10;
+    font-size: 1.6vw;
+    width: 75%;
+    line-height: 1;
+}
 
 
